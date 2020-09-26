@@ -15,7 +15,7 @@ function TimeOfDay() {
         }
         
         return (
-          <h1 style={{color: "green"}}>Have a good {timeOfDay}!</h1>
+          <h3 style={{color: "green"}}>Have a good {timeOfDay}!</h3>
         ) 
       
 

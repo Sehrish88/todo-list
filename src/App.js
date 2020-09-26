@@ -1,21 +1,19 @@
 import React from 'react';
 import TimeOfDay from './TimeOfDay';
+import TodoItem from './TodoItem'; 
 
 
 const App = () => {
  return (  
 
-    <div className="box">
+    <div >
         <TimeOfDay />
-
-        <input type="checkbox" />
-        <p>Placeholder text here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder text here</p>
-
-        <input type="checkbox" />
-        <p>Placeholder text here</p>
+        <div className="todo-list"> 
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+        </div>
     </div>
  )
 }
